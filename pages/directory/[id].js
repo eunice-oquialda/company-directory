@@ -29,7 +29,8 @@ const Details = ({ contact }) => {
         <div>
             <h1>{ contact.name } </h1>
             <p>{ contact.email }</p>
-            <p>{ contact.website }</p>
+            <p>{contact.website}</p>
+            <p>{ contact.phone }</p>
         </div>
      );
 }
